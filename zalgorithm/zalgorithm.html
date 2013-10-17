@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Matching Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+</head>
+<body ng-app='app' ng-controller="appCtrl">
+<h3>Input:</h3>    <input class='feedback' ng-model="inputString1"/>
+
+<h3>Input2:</h3>   <input class='feedback' ng-model="inputString2"/>
+<hr>
+{{obj.name}}!
+
+
+<hr>
+</body>
+<script>
+    var app = angular.module('app', []);
+
+    app.directive("feedback", function () {
+
+        var zAlg = function (T, P) {
+            P.push('$');
+            var s = P.concat(T);
+            var n = s.length;
+            var z = new Array(n);
+            var goal = P.length;
+            var r = 0, l = 0, i;
+
+            for (var k = 1; k < n; k++) {
+                if (k > r) {
+                    for (i = k; (i < n && s[i] == s[i - k]); i++) {
+                        if (i > k) {
+                            z[k] = i - k;
+                            l = k;
+                            r = i - 1;
+                        }
+                    }
+                }
+                else {
+                    var kt = k - 1, b = r - k + 1;
+                    if (z[kt] > b) {
+                        if (z[kt] > b) {
+                              for(i=r+1;i<n&&s[i]==s[i-k];i++);
+                                z[k]=i-k;
+                            l=k;
+                            r=i-1;
+                        }
+                    }
+                }
+                if(z[k]==goal)
+                    return true;
+            }
+            return false;
+        }
+
+
+        var temp1 = null;
+        var temp2 = null;
+        return{
+            restrict: 'C',
+            replace: true,
+            transclude: false,
+            scope: true,
+            link: function (scope, element, attr) {
+                scope.$watchCollection('[inputString1, inputString2]', function (newValues) {
+                    if (newValues[0] != null) {
+                        temp1 = newValues[0];
+
+                    }
+                    if (newValues[1] != null) {
+                        temp2 = newValues[1];
+                    }
+//                    console.log(temp1!=null&&temp2!=null);
+                    if (temp1 != null && temp2 != null) {
+                        scope.obj.name = zAlg(temp1.split(""), temp2.split(""));
+                        console.log(zAlg(temp1.split(""), temp2.split("")));
+
+                    }
+                }, true);
+
+            }
+        }
+    });
+
+    var appCtrl = app.controller('appCtrl', function ($scope) {
+        $scope.obj = {name: 'Not Match'};
+    })
+</script>
+</html>
