@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94284d07-8928-434a-830a-ae4db39c2437" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularDirTest/AngularDirTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularDirTest/DirTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ShuoLi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="params.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/params.json">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="106" selection-start="36" selection-end="106" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="50" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="DirTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularDirTest/DirTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="73" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.35243902" vertical-offset="459" max-vertical-offset="1462">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AngularDirTest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularDirTest/AngularDirTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="303" selection-end="303" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -74,15 +85,6 @@
         <entry file="file://$PROJECT_DIR$/stylesheets/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="55" selection-start="203" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104941">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GitHubDataVis/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
               <folding />
             </state>
           </provider>
@@ -258,6 +260,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShuoLi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShuoLi.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularDirTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -267,6 +283,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sli\Dropbox\homepage\ShuoLi.github.io" />
       <recent name="C:\Users\sli\Dropbox\homepage\ShuoLi.github.io\stylesheets" />
       <recent name="C:\Users\sli\Dropbox\homepage\ShuoLi.github.io\javascripts" />
       <recent name="C:\Users\sli\Dropbox\homepage\ShuoLi.github.io\GitHubDataVis" />
@@ -436,9 +453,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDirTest/DirTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDirTest/AngularDirTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="303" selection-end="303" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="73" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.35243902" vertical-offset="459" max-vertical-offset="1462">
+        <state line="50" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
