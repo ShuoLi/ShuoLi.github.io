@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="d3DemoApp">
+<head>
+    <meta charset="utf-8">
+    <title>Test On Angular+D3</title>
+
+    <script src="http://d3js.org/d3.v2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.4.0.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="circle.js"></script>
+    <style>
+        body {
+            font: 14px Helvetica Neue;
+            text-rendering: optimizeLegibility;
+            margin-top: 1em;
+            overflow-y: scroll;
+        }
+        .label {
+            font-size: .65em;
+        }
+        body {
+            width: 960px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 300;
+            margin-bottom: .3em;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body ng-controller="AppCtrl">
+<h1>Github Commit Graph</h1>
+
+<form ng-submit="getCommitData()">
+    User: <input ng-model="user"></input>
+
+    <!--Repo: <input auto-complete ui-items="repos" ng-model="repo">-->
+    Repo: <input ng-model="repo" typeahead="repo for repo in repos | filter:$viewValue"></input>
+    <input type="submit" value="Get Data">
+    Grouped <input type="checkbox" ng-model="grouped">
+</form>
+
+
+<p class="error">{{error}}</p>
+<gh-visualization val="data" grouped="grouped"></gh-visualization>
+</body>
+</html>
