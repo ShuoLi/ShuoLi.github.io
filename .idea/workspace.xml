@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94284d07-8928-434a-830a-ae4db39c2437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularDirTest/AngularDirTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularDirTest/DirTest.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ShuoLi.github.io.iws" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
+            <state line="50" column="44" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -469,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
+        <state line="50" column="44" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.66341466" vertical-offset="306" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
