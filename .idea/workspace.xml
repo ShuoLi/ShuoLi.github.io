@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94284d07-8928-434a-830a-ae4db39c2437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/balloon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/balloon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/balloon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cloud-lg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cloud-lg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cloud-sm1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nav-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nav-dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/scroll-arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/scroll-arrow-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fake_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/modernizr.custom.37797.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/parallax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fake_index.html" afterPath="$PROJECT_DIR$/Fake_index.html" />
     </list>
     <ignored path="ShuoLi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +46,7 @@
       <file leaf-file-name="Fake_index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fake_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="54" selection-start="637" selection-end="637" vertical-scroll-proportion="0.51829267" vertical-offset="0" max-vertical-offset="2210">
+            <state line="8" column="61" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16585366" vertical-offset="0" max-vertical-offset="2176">
               <folding />
             </state>
           </provider>
@@ -149,6 +135,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../../Python/DJango/vm/videomining/videomining/static/bullet/index.html" />
+        <option value="$PROJECT_DIR$/Fake_index.html" />
       </list>
     </option>
   </component>
@@ -469,7 +456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fake_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="54" selection-start="637" selection-end="637" vertical-scroll-proportion="0.51829267" vertical-offset="0" max-vertical-offset="2210">
+        <state line="8" column="61" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16585366" vertical-offset="0" max-vertical-offset="2176">
           <folding />
         </state>
       </provider>
