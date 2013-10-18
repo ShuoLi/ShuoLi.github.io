@@ -1,80 +1,142 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+
 <html>
+	
+	<head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="sli.io : " />
+        <script type="javascript" src="/javascripts/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="sli.io : " />
-     <script type="javascript" src="/javascripts/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-      <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
 
+        <title>sli.io</title>
+		<link rel="stylesheet" media="all" href="stylesheets/ballon.css" />
 
-    <title>sli.io</title>
-  </head>
+		<script src="javascripts/modernizr.custom.37797.js"></script>
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script src="javascripts/parallax.js"></script>
+	</head>
 
-  <body>
+	<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ShuoLi">View on GitHub</a>
+		<div id="wrapper">
 
-          <h1 id="project_title">sli.io</h1>
-          <h2 id="project_tagline"></h2>
+            <div id="header_wrap" class="outer">
+                <header class="inner">
+                    <a id="forkme_banner" href="https://github.com/ShuoLi">View on GitHub</a>
 
-        </header>
-    </div>
+                    <h1 id="project_title">sli.io</h1>
+                    <h2 id="project_tagline"></h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+                </header>
+            </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>First manned flights</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>The frameless parachute</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Over the English Channel</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+						<h1>JavaScript Visualization</h1>
+					</header>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                    <a href="/GitHubDataVis/rect.html" class="btn">GitHubDataTest with Auto Complete</a>
+                    <a href="/GitHubDataVis/circle.html" class="btn">GitHubDataTest with Grouped</a>
+                    <a href="/testOnEva/eva.html" class="btn">D3 Timer animation</a>
+                    <a href="/zalgorithm/zalgorithm.html" class="btn">Z Algorithm</a>
+                    <a href="/AngularDirTest/AngularDirTest.html" class="btn">Angular Separated Directive</a>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<a href="/GitHubDataVis/rect.html" class="btn btn-warning">GitHubDataTest with Auto Complete</a>
-<a href="/GitHubDataVis/circle.html" class="btn btn-warning">GitHubDataTest with Grouped</a>
-<a href="/testOnEva/eva.html" class="btn btn-warning">D3 Timer animation</a>
-<a href="/zalgorithm/zalgorithm.html" class="btn btn-warning">Z Algorithm</a>
-<a href="/AngularDirTest/AngularDirTest.html" class="btn btn-warning">Angular Separated Directive</a>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+                    <nav class="next-prev">
+						<hr />
+						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+					</nav>
+				</article>
+				
+				<article id="frameless-parachute">
+					<header>
+						<h1>Algorithm Implementations</h1>
+					</header>
+					<p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+					<nav class="next-prev">
+						<a class="prev manned-flight" href="#manned-flight">Prev</a>
+						<hr />
+						<a class="next english-channel" href="#english-channel">Next</a>
+					</nav>
+				</article>
+				
+				<article id="english-channel">
+					<header>
+						<h1>Writting</h1>
+					</header>
+					<p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+					<nav class="next-prev">
+						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+						<hr />
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+					<header>
+						<h1>About</h1>
+					</header>
+					<p>This is a jQuery parallax scrolling experiment by Jonathan Nicol. <a href="http://f6design.com/journal/2011/08/06/build-a-parallel-scrolling-website-interface-with-jquery-and-css/">Read about it</a> on my blog.</p>
+					<nav class="next-prev">
+						<a class="prev english-channel" href="#english-channel">Prev</a>
+						<hr />
+					</nav>
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="./images/balloon.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
+				<img id="bg3-2" src="./images/balloon2.png" width="603" height="583" alt="Frameless parachute"/>
+				<img id="bg3-3" src="./images/balloon3.png" width="446" height="713" alt="Blanchard's air balloon"/>
+				<img id="bg3-4" src="./images/ground.png" width="1104" height="684" alt="Landscape with trees and cows"/>
+			</div>
+			
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2">
+				<img id="bg2-1" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-2" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-3" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-4" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-5" src="./images/cloud-lg1.png" alt="cloud"/>
+			</div>
+			
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1">
+				<img id="bg1-1" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-2" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-3" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-4" src="./images/cloud-lg2.png" alt="cloud"/>
+			</div>
+		
+		</div>
+	
+	</body>
+  
 </html>
