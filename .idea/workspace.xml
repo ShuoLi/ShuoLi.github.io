@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94284d07-8928-434a-830a-ae4db39c2437" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fake_index.html" afterPath="$PROJECT_DIR$/Fake_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShuoLi.github.io.iws" />
@@ -356,7 +355,11 @@
       <created>1382108654657</created>
       <updated>1382108654657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test On Git Webstorm">
+      <created>1382109273716</created>
+      <updated>1382109273716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
