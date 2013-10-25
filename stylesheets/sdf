@@ -1,0 +1,59 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+     public static ArrayList<Long[]> missles=new ArrayList<Long[]>();
+     public static void main(String[] args) {
+        Scanner stdin = new Scanner(System.in);
+        int total_lines = Integer.parseInt(stdin.nextLine());
+        //for this problem, need a table to host all the current HackerX situation.(Frequency). Update the table by time and find the nearest neighbor from this table.  
+        //first, check this table, if there is anyone could change its frenquency in time, invoke this hackX. 
+        //if not, add a new missle and put it in the table
+         Long current_time =0;
+         Long current_fre = 0;
+         double temp_dist = 0;
+         Long num_of_missles = 0;
+         double min_value = Double.MAX_VALUE;
+        for(int i=0;i<total_lines;i++){
+            //add current value to unsorted array 
+            String input = stdin.nextLine();
+            current_time = Long.parseLong(input.split(" ")[0]);
+            current_fre =  Long.parseLong(input.split(" ")[1]);
+            min_value = Double.MAX_VALUE;
+            
+
+            int selected_missle=0;
+            for(int j=0;j<missles.size();j++){
+               Long[] a = missles.get(j);
+               temp_dist = dist(current_time,current_fre,a[0],a[1]);
+                if(temp_dist<min_value){
+                    min_value=temp_dist;
+                    selected_missle = j;
+                }
+            }
+            
+            if(min_value==Double.MAX_VALUE){
+                missles.add(new Long[]{current_time,current_fre});
+            }else{
+                missles.set(selected_missle,new Long[]{current_time,current_fre});
+            }
+        }
+         
+         System.out.println(missles.size());
+     }
+         
+         public static double dist(Long t_time, Long t_fre, Long m_time, Long m_fre){
+             if(Math.abs(t_fre-m_fre)>Math.abs(t_time-m_time))
+                 return Double.MAX_VALUE;
+             if(t_fre==m_fre&&t_time==m_time)
+                 return 0;
+             if((t_time-m_time)==0)
+                 return Double.MAX_VALUE;
+             return Math.abs(t_fre-m_fre)-(t_time-m_time);
+         }
+
+}

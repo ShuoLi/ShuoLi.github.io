@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="les.css">
+
+    <script src="lesController.js"></script>
+
+    <title>Matrix Presentation</title>
+</head>
+<body>
+    <div ng-app="videoModule">
+
+        <div id='backward' class='btn btn-success'>Backward</div>
+        <div id='forward' class='btn btn-success'>Forward</div>
+        <div id='areaOption' class='btn btn-success'>Area Choose</div>
+        <div id='download' class='btn btn-success'>Download</div>
+        <div id='runScript' class='btn btn-success'>Run Script</div>
+        <!--<div id="graph" class='pull-left span8'></div>-->
+        <div ng-controller='videoController'>
+            <gh-visualization val="data"></gh-visualization>
+            <!--<div id="graph" class='pull-left span8'></div>-->
+            <!--<iframe src='http://embed.verite.co/timeline/?source=0AsTZkDiyhzJIdHdJYkFFYnNhYlFzVU5UZlNtcWFQRGc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>-->
+            <!--<div id='window' class='pull-right span3'></div>-->
+        </div>
+    </div>
+</body>
+</html>
