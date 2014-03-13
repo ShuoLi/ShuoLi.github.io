@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test for JavaScript Date Object</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="moment.min.js"></script>
+</head>
+<body>
+       Standard Time Format:
+       <div id="dateOutput">
+       </div>
+       ISO Time Format:
+       <div id="ISODate">
+       </div>
+       From ISO to UTC time:
+       <div id="translateDate">
+
+       </div>
+</body>
+
+<script>
+    var thisInterval = setInterval(function(){
+        var d = new Date();
+        var t = d.toLocaleTimeString();
+        $("#dateOutput").html(t);
+        $("#ISODate").html(d.toISOString());
+        $("#translateDate").html(moment(d.toISOString()).toString());
+    },2000);
+</script>
+</html>

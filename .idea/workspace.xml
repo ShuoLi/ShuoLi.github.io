@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94284d07-8928-434a-830a-ae4db39c2437" name="Default" comment="Test On Git Webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AudioVisualization/doom.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AudioVisualization/AudioVis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AudioVisualization/audioVis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PieChart/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PieChart/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/les.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/les.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/lesController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/matrix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/video.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrix/video2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cubism/cubism.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cubism/cubism.v1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moment.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,81 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PieChart/data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16048">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="75" selection-start="3675" selection-end="3675" vertical-scroll-proportion="-6.5384617" vertical-offset="1666" max-vertical-offset="3179">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matrix.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix/matrix.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="38556">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104941">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matrix/lesController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="20" selection-start="8420" selection-end="8420" vertical-scroll-proportion="0.52871287" vertical-offset="2929" max-vertical-offset="4233">
-              <folding>
-                <element signature="e#1929#1993#0" expanded="false" />
-                <element signature="e#2052#2116#0" expanded="false" />
-                <element signature="e#2193#2406#0" expanded="false" />
-                <element signature="e#2525#2621#0" expanded="false" />
-                <element signature="e#2685#3018#0" expanded="false" />
-                <element signature="e#3563#3654#0" expanded="false" />
-                <element signature="e#3968#4046#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="les.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix/les.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="les.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrix/les.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="41" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="5848">
+            <state line="157" column="80" selection-start="6076" selection-end="6076" vertical-scroll-proportion="2.729634" vertical-offset="357" max-vertical-offset="3196">
               <folding />
             </state>
           </provider>
@@ -137,20 +57,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../Python/DJango/vm/videomining/videomining/static/bullet/index.html" />
-        <option value="$PROJECT_DIR$/Fake_index.html" />
         <option value="$PROJECT_DIR$/AngularAnimationTest/animation.js" />
         <option value="$PROJECT_DIR$/AngularAnimationTest/animation.html" />
         <option value="$PROJECT_DIR$/stylesheets/ballon.css" />
         <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
         <option value="$PROJECT_DIR$/AudioVisualization/AudioVis.js" />
         <option value="$PROJECT_DIR$/AudioVisualization/audioVis.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/matrix/matrix.js" />
         <option value="$PROJECT_DIR$/matrix/les.css" />
         <option value="$PROJECT_DIR$/matrix/les.js" />
         <option value="$PROJECT_DIR$/matrix/matrix.html" />
         <option value="$PROJECT_DIR$/matrix/lesController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Cubism/cubism.v1.js" />
+        <option value="$PROJECT_DIR$/Cubism/cubism.html" />
+        <option value="$PROJECT_DIR$/moment.min.js" />
+        <option value="$PROJECT_DIR$/DateTest.html" />
       </list>
     </option>
   </component>
@@ -174,7 +96,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -185,50 +107,14 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShuoLi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShuoLi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShuoLi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShuoLi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShuoLi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python/DJango/vm/videomining" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -241,17 +127,7 @@
       <recent name="C:\Users\sli\Dropbox\homepage\ShuoLi.github.io\stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.matrix.html">
-    <configuration default="false" name="Fake_index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ShuoLi.github.io/Fake_index.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ShuoLi.github.io/AngularAnimationTest/animation.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.DateTest.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ShuoLi.github.io/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -267,14 +143,14 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
+    <configuration default="false" name="cubism.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ShuoLi.github.io/Cubism/cubism.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DateTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ShuoLi.github.io/DateTest.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -283,6 +159,16 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -297,19 +183,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Fake_index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.animation.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audioVis.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.matrix.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.audioVis.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.matrix.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.cubism.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DateTest.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.matrix.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.audioVis.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.animation.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Fake_index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DateTest.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.cubism.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.matrix.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audioVis.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -361,28 +247,48 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="false" />
+    <frame x="1272" y="-8" width="1296" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5125" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5125" sideWeight="0.6004415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -400,114 +306,85 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascripts/angular.js">
+    <entry file="file://$PROJECT_DIR$/matrix/les.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="325482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/angular-mocks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="59" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35666">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/sample-test.in.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="57" selection-start="18451" selection-end="18451" vertical-scroll-proportion="1.0764192" vertical-offset="2958" max-vertical-offset="261409" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AudioVisualization/audioVis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.21656051" vertical-offset="0" max-vertical-offset="471" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="19" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="7225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascripts/modernizr.custom.37797.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="227" selection-end="227" vertical-scroll-proportion="0.033663366" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PieChart/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/video.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="75" selection-start="3675" selection-end="3675" vertical-scroll-proportion="-6.5384617" vertical-offset="1666" max-vertical-offset="3179">
-          <folding />
-        </state>
+        <state line="161" column="41" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="5848" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matrix/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="38556">
-          <folding />
-        </state>
+        <state line="103" column="54" selection-start="3147" selection-end="3147" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="38556" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/matrix.html">
+    <entry file="file://$PROJECT_DIR$/Cubism/cubism.v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/les.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/les.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="41" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="5848">
-          <folding />
-        </state>
+        <state line="1103" column="57" selection-start="41086" selection-end="41086" vertical-scroll-proportion="12.253521" vertical-offset="12661" max-vertical-offset="19448" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matrix/lesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="20" selection-start="8420" selection-end="8420" vertical-scroll-proportion="0.52871287" vertical-offset="2929" max-vertical-offset="4233">
-          <folding>
-            <element signature="e#1929#1993#0" expanded="false" />
-            <element signature="e#2052#2116#0" expanded="false" />
-            <element signature="e#2193#2406#0" expanded="false" />
-            <element signature="e#2525#2621#0" expanded="false" />
-            <element signature="e#2685#3018#0" expanded="false" />
-            <element signature="e#3563#3654#0" expanded="false" />
-            <element signature="e#3968#4046#0" expanded="false" />
-          </folding>
+        <state line="17" column="11" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4607" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix/matrix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="73" selection-start="412" selection-end="412" vertical-scroll-proportion="0.22804879" vertical-offset="0" max-vertical-offset="820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioVisualization/audioVis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="37" selection-start="151" selection-end="151" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularDirTest/AngularDirTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="0.019607844" vertical-offset="323" max-vertical-offset="104941" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DateTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="450" selection-end="450" vertical-scroll-proportion="0.33415234" vertical-offset="0" max-vertical-offset="814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moment.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="182" selection-end="182" vertical-scroll-proportion="0.020556228" vertical-offset="0" max-vertical-offset="827" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularAnimationTest/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.14373465" vertical-offset="682" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ng-table-master/examples/js/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="375" column="49" selection-start="14192" selection-end="14192" vertical-scroll-proportion="0.16190477" vertical-offset="6171" max-vertical-offset="34799" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ng-table-master/examples/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10119048" vertical-offset="0" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ng-table-master/examples/demo14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="268" selection-end="268" vertical-scroll-proportion="-0.41769043" vertical-offset="408" max-vertical-offset="1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cubism/cubism.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="125" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.14373465" vertical-offset="1872" max-vertical-offset="2788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="80" selection-start="6076" selection-end="6076" vertical-scroll-proportion="2.729634" vertical-offset="357" max-vertical-offset="3196">
+          <folding />
         </state>
       </provider>
     </entry>
