@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src="javascripts/jquery.js"></script>
 	<script src="jquery.slinky.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
 	<link rel="stylesheet" href="projects.css">
 	<title>Personal Project Experience and Showcase</title>
 </head>
@@ -21,6 +22,7 @@ nav {
 section, header {
   width: 100%;
   max-width: 1000px;
+  z-index: 2;
 }
 
 section {
@@ -36,7 +38,7 @@ h3 {
 }
 
 h2 {
-	font-size: 1em;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
@@ -75,6 +77,53 @@ section:nth-child(7) header {
 article {
   margin: 1rem;
 }
+
+button, .button {
+    padding-top: 0.8125em;
+    padding-bottom: 0.75em;
+    -webkit-appearance: none;
+}
+
+button, .button {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    color:white;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-right: 1.5em;
+    padding-bottom: 0.8125em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    background-color: #2ba6cb;
+    border-color: #2284a1;
+    color: white;
+}
+
+button, .button {
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+}
+
+.bs-tags {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+}
 </style>
 <body style="">
 	<main>
@@ -89,63 +138,87 @@ article {
 				<header style="position: absolute; top: 35px;"><h3>Ruby On Rails</h3></header>
 				<article>
 					<div>
-						<h2>Hotpotpa.com</h2>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
+					    <a href="http://www.hotpotpa.com"><h2>Hotpotpa.com</h2></a>
+						<div style="margin-top:-20px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">S3</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Foundation</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">ActiveAdmin</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">CoffeeScript</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Devise</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ActiveMerchant</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Mail</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Parallax.js</span>
+                        </div>
 					</div>
 					<div>
-						<h2>Rainbowa</h2>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
+                        <a href="http://rainbowa.heroku.com"><h2>Rainbowa</h2></a>
+                        <div style="margin-top:-20px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Omniauth</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Youtube</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Video.js</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ImageMagick</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Carrierwave</span>
+                        </div>
+						<p>A Rails-based music video sharing website. Allows users compose and modify music timelines. My focus is the frontend, using JavaScript built interactive effect during playing the music. Also, my work included the solutions between user behaviors and data communication. </p>
 					</div>
 					<div>
-						<h2>Yisifahan</h2>
+                        <a href="http://yisifahan.heroku.com"><h2>Yisifahan</h2></a>
+                        <div style="margin-top:-20px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Madmimi</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Blog</span>
+                        </div>
+						<p>A Rails-based functioning website displays luxury carpets for sale. It’s a practical project and I’m responsible for the whole project. My work contains, requirement analysis, data class design, frontend and backend coding, user interface design and implement, deployment project on could. In this project, Gems like Bootstrap, SASS, ActiveAdmin had been used to improve the user experience. </p>
+					</div>
+					<div>
+						<a href="http://www.uab-usa.com"><h2>UAB-USA</h2></a>
+                        <div style="margin-top:-20px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">ExecJS</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Devise</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">ActiveAdmin</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">S3</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Kaminari</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Prawn</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ImageMagick</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Sidekiq</span>
+                        </div>
 						<p></p>
 					</div>
-					<div>
-						<h2>UAB-USA</h2>
-						<p></p>
-					</div>
-					<div>
-						<h2>Doubi.org</h2>
-						<p></p>
-					</div>
-					<div>
-						<h2>viscb</h2>
-						<p></p>
-					</div>
+					<!--<div>-->
+						<!--<h2>Doubi.org</h2>-->
+						<!--<p></p>-->
+					<!--</div>-->
+					<!--<div>-->
+						<!--<h2>viscb</h2>-->
+						<!--<p></p>-->
+					<!--</div>-->
 				</article>
 			</section>
 			<section style="padding-top: 35px;">
 				<header style="position: absolute; top: 35px;"><h3>JavaScript Showcase</h3></header>
 				<article>
-				</div>
-				<div>
-					<h1>J2EE</h1>
-					<div>
-						<h2>Simulated Spring</h2>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-						<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-					</div>
+
+
 				</article>
 			</section>
 			<section style="padding-top: 35px;">
-				<header style="position: absolute; top: 35px;"><h3>Android</h3></header>
+				<header style="position: absolute; top: 35px;"><h3>Android & J2EE</h3></header>
 				<article>
 				<div>
 					<h2>JYogurt</h2>
-					<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-					<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-					<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
-					<p>Website for state college restaurant. It is build in Integrated with Paypal API, </p>
+					<p>A restful-based Android application that enables the students within the Johns Hopkins to post buying & selling information as well as housing information via their Android devices. My work is controlling the process of whole project, designing J2EE frameworks, writing the communication API between Android and Server side and refactoring for Android side.</p>
 				</div>
+                <div>
+                    <h2>Simulated Spring</h2>
+                    <p></p>
+                </div>
 				<div>
 					<h2>CanvasGame</h2>
 					<p></p>
@@ -154,23 +227,18 @@ article {
 			</section>
 			<section style="padding-top: 35px;">
 				<header style="position: absolute; top: 35px;"><h3>Academic Projects</h3></header>
+                <article>
 					<div>
 						<h2>Robotics</h2>
-						<p>Dynamic Dubins-curve based RRT Motion Planning for Differential Constrain Robot.</p>
+						<p>Dynamic Dubins-curve based RRT Motion Planning for Differential Constrain Robot.<br>
+                         This project develops a sample-based motion-planning algorithm for robot with differential constraints. It’s development in C++ with OOPSMP. It’s the course project for Algorithm for Sensor-Based Robotic. My work is combining the Dubins curve into the original control system implementation.</p>
 					</div>
 					<div>
 						<h2>Machine Learning</h2>
-						<p></P>
-						</div>
-						<div>
-							<h1></h1>
-						</div>
-						<div>
-							<h2>Network Security</h2>
-							<p></p>
-						</div>
+						<p>Patent Analysis Based Topic Model and Non- Exhaustive Clustering.<br>
+                        Patent mining software developed for a Baltimore local company. It works by fetching data from USPTO. Then use Non-exhaustive overlapping clustering combined with the keywords found by LDA, to find the commercial value of patents. I participated the first step of the software. My work includes implementation of clustering algorithm, data visualization with JavaScript. </p>
 					</div>
-				</artical>
+				</article>
 			</section>
 		</nav>
 	</main>
