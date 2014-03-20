@@ -107,10 +107,10 @@ var re;
 d3.selectAll('.filter2').on('mousedown', function () {
     camt = d3.select(this).text();
     console.log(camt);
-    if (camt == "Face") {
-        re = new RegExp(/fac/g);
-    } else if (camt == "TopDown") {
-        re = new RegExp(/cam/g);
+    if (camt == "F-Filter1") {
+        re = new RegExp(/node/g);
+    } else if (camt == "F-Filter2") {
+        re = new RegExp(/cnode/g);
     } else {
         re = new RegExp("");
     }
@@ -137,10 +137,10 @@ d3.selectAll('.filter1').on('mousedown', function () {
 
     d3.selectAll('.sel').each(function () {
         var tmp = d3.select(this).text();
-        if (tmp == 'CSI') {
+        if (tmp == 'Filter1') {
             filter1_nodes.push.apply(filter1_nodes, CSI);
         }
-        if (tmp == 'GSI') {
+        if (tmp == 'Filter2') {
             filter1_nodes.push.apply(filter1_nodes, GSI);
         }
         if (tmp == "Others") {
