@@ -27,7 +27,27 @@
 
 </head>
 <body>
+<div class='row'>
+    <div class="btn-group" data-toggle="buttons-checkbox">
+        <button type="button" class="filter1 btn btn-success">Filter1</button>
+        <button type="button" class="filter1 btn btn-success">Filter2</button>
+        <button type="button" class="filter1 btn btn-success">Others</button>
+    </div>
 
+    <div class="btn-group" data-toggle="buttons-radio">
+        <button type="button" class="filter2 btn btn-success">F-Filter1</button>
+        <button type="button" class="filter2 btn btn-success">F-Filter2</button>
+        <button type="button" class="filter2 btn btn-success">All</button>
+    </div>
+    <!-- <input type="text" id="datepicker"/> -->
+
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+
+    </script>
+</div>
 
 <div id="tree">
 </div>
@@ -46,9 +66,9 @@ Array.prototype.remove = function () {
 };
 
 
-var CSI = ['bp', 'cf', 'chev', 'ck', 'fz', 'getgo', 'hess', 'hol', 'mav', 'race', 's11', 'shtz', 'thor'];
-var GSI = ['flion', 'giant', 'gte', 'kro', 'sas', 'sch', 'swy'];
-var OTHERS = ['tgt', 'vpu', 'jh'];
+var CSI = ['Apple','Groupon'];
+var GSI = ['Twitter', 'Grounon', 'Facebook'];
+var OTHERS = ['Microsoft', 'Oracle'];
 
 var m = [20, 120, 20, 120],
         w = 1280 - m[1] - m[3],
