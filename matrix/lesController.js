@@ -156,11 +156,6 @@ var videoModule = angular.module("videoModule", [])
                             })          .on("mouseover", mouseover)
                             .on("mouseout", mouseout)
                             .on("mousedown",mousedown);
-//             .on("mousemove", function() { if (!dragging){
-//                 console.log("not dragging");
-// return;
-//             }
-//              console.log("dragging: " + dragging); });
 
 
 
