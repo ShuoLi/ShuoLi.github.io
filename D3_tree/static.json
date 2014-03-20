@@ -126,7 +126,7 @@
         "name": "Facebook",
         "children": [
             {
-                "name": "Facebook",
+                "name": "Homepage",
                 "children": [
                     {
                         "name": "01",
@@ -149,7 +149,7 @@
         "name": "Twitter",
         "children": [
             {
-                "name": "Twitter",
+                "name": "Homepage",
                 "children": [
                     {
                         "name": "01",
