@@ -9,27 +9,23 @@
 	<script src="javascripts/jquery.js"></script>
 	<script src="jquery.slinky.min.js"></script>
 
-   <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+   <!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
 	<link rel="stylesheet" href="projects.css">
 	<title>Personal Project Experience and Showcase</title>
 </head>
 <style>
-html, body, div, span,  header,a {
-  margin: 0;
+html, body, div, span,a {
+  /*margin: 0;*/
   padding: 0;
   border: 0;
-  font: inherit;
+  /*font: inherit;*/
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-header {
-  display: block;
-}
 nav {
   height: 100%;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 section, header {
@@ -43,10 +39,11 @@ section {
 }
 
 h3 {
-  color: #FFF;
-  padding: .5em 1rem;
-  font-size: 1.0em;
+   color: #FFF;
+  padding: .3em .3rem;
+  font-size: .9em;
   font-weight: bold;
+  text-transform: uppercase;
   /*text-transform: uppercase;*/
 }
 
@@ -56,11 +53,15 @@ h2 {
 }
 
 section:first-child {
-  margin-top: 6.25%;
+  /*margin-top: 6.25%;*/
 }
 
 section:last-child {
   margin-bottom: 6.25%;
+}
+
+section:nth-child(1) header {
+  background: #1985D4;
 }
 
 section:nth-child(2) header {
@@ -83,12 +84,10 @@ section:nth-child(6) header {
   background: #7E2985;
 }
 
-section:nth-child(7) header {
-  background: #1985D4;
-}
+
 
 article {
-  margin: 1rem;
+  margin: 0.2rem;
 }
 
 button, .button {
@@ -143,26 +142,13 @@ button, .button {
     box-shadow: none;
 }
 </style>
-            <div id="header_wrap" class="outer">
-                <header class="inner">
-                    <a id="forkme_banner" href="https://github.com/ShuoLi">View on GitHub</a>
-
-                    <h1 id="project_title">sli.io</h1>
-                    <h2 id="project_tagline"></h2>
-
-                </header>
-            </div>
-<body style="height:80%">
+<body style="">
 
 	<main>
 		<nav>
+<!-- 			<section style="padding-top: 0px;">
+			</section> -->
 			<section style="padding-top: 0px;">
-				<header style="position: absolute; top: 0px;"></header>
-				<article>
-					<h1>Project Experience</h1>
-				</article>
-			</section>
-			<section style="padding-top: 35px;">
 				<header style="position: absolute; top: 35px;"><h3>Ruby On Rails</h3></header>
 				<article>
           <div>
@@ -170,7 +156,7 @@ button, .button {
           </div>
 					<div>
 					    <a href="http://www.hotpotpa.com"><h2>Hotpotpa.com</h2></a>
-						<div style="margin-top:-20px" class="bs-tags">
+						<div style="margin-top:0px" class="bs-tags">
                             <span class="btn-small btn-warning" style="font-size:0.9em">S3</span>
                             <span class="btn-small btn-danger" style="font-size:0.9em">Foundation</span>
                             <span class="btn-small btn-success" style="font-size:0.9em">ActiveAdmin</span>
@@ -185,7 +171,7 @@ button, .button {
 					</div>
 					<div>
                         <a href="http://rainbowa.heroku.com"><h2>Rainbowa</h2></a>
-                        <div style="margin-top:-20px" class="bs-tags">
+                        <div style="margin-top:0px" class="bs-tags">
                             <span class="btn-small btn-warning" style="font-size:0.9em">Omniauth</span>
                             <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
                             <span class="btn-small btn-success" style="font-size:0.9em">Youtube</span>
@@ -198,7 +184,7 @@ button, .button {
 					</div>
 					<div>
                         <a href="http://yisifahan.heroku.com"><h2>Yisifahan</h2></a>
-                        <div style="margin-top:-20px" class="bs-tags">
+                        <div style="margin-top:0px" class="bs-tags">
                             <span class="btn-small btn-warning" style="font-size:0.9em">Madmimi</span>
                             <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
                             <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
@@ -209,7 +195,7 @@ button, .button {
 					</div>
 					<div>
 						<a href="http://www.uab-usa.com"><h2>UAB-USA</h2></a>
-                        <div style="margin-top:-20px" class="bs-tags">
+                        <div style="margin-top:0px" class="bs-tags">
                             <span class="btn-small btn-warning" style="font-size:0.9em">ExecJS</span>
                             <span class="btn-small btn-danger" style="font-size:0.9em">Devise</span>
                             <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
@@ -221,7 +207,7 @@ button, .button {
                             <span class="btn-small btn-danger" style="font-size:0.9em">ImageMagick</span>
                             <span class="btn-small btn-warning" style="font-size:0.9em">Sidekiq</span>
                         </div>
-						<p>This project is an order management system for UAB-USA. It combines complicate business logic and requirement for efficiency filter options.</p>
+						<p>This project is an order management system for UAB-USA. It combines complicate business logic and requirement for efficiency filter options. Support CORS multiple file upload and auto-generated receipt page. </p>
 					</div>
 					<!--<div>-->
 						<!--<h2>Doubi.org</h2>-->

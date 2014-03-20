@@ -1,4 +1,4 @@
-/*******************************************************************************
+/*/*/*/*******************************************************************************
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
@@ -289,9 +289,9 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-#header_wrap .inner {
+/*#header_wrap .inner {
   padding: 50px 10px 30px 10px;
-}
+}*/
 
 #project_title {
   margin: 0;
@@ -417,3 +417,4 @@ Small Device Styles
   }
 
 }
+*/*/*/
