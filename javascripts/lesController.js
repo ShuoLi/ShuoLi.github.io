@@ -78,7 +78,6 @@ function HashTable(obj) {
     }
 }
 
-
 var videoModule = angular.module("videoModule", ['$strap.directives','mongolabResourceHttp','ngCookies','ngRoute']);
 
 videoModule.constant('MONGOLAB_CONFIG', (function () {
@@ -93,12 +92,6 @@ videoModule.factory('videoProject', function ($mongolabResourceHttp) {
     return $mongolabResourceHttp('data', 'videoService');
 });
 
-
-videoModule.value('$strapConfig', {
-    datepicker: {
-        format: 'M D, yyyy'
-    }
-});
 
 videoModule.directive('ghVisualization', function () {
 
@@ -213,14 +206,14 @@ videoModule.directive('ghVisualization', function () {
                         })
                         .each(row);
 
-                    row.append("text")
-                        .attr("x", -6)
-                        .attr("y", x.rangeBand() / 2)
-                        .attr("dy", ".45em")
-                        .attr("text-anchor", "end")
-                        .text(function (d, i) {
-                            return xnodes[i];
-                        });
+                    // row.append("text")
+                    //     .attr("x", -6)
+                    //     .attr("y", x.rangeBand() / 2)
+                    //     .attr("dy", ".45em")
+                    //     .attr("text-anchor", "end")
+                    //     .text(function (d, i) {
+                    //         return xnodes[i];
+                    //     });
                     var column = svg.selectAll(".column")
                         .data(ynodes)
                         .enter().append("g")
@@ -229,14 +222,6 @@ videoModule.directive('ghVisualization', function () {
                             return "translate(" + y(j) + ")rotate(-90)";
                         });
 
-//                    column.append("text")
-//                        .attr("x", 6)
-//                        .attr("y", y.rangeBand() / 2)
-//                        .attr("dy", ".32em")
-//                        .attr("text-anchor", "start")
-//                        .text(function (d, j) {
-//                            return ynodes[j];
-//                        });
 
 
                     function row(row) {
@@ -253,10 +238,7 @@ videoModule.directive('ghVisualization', function () {
                             })
                             .attr("width", y.rangeBand())
                             .attr("height", x.rangeBand())
-//                            .style("fill-opacity", function (d) {
-//                                return 0.6;
-//
-//                            })
+
                             .style("fill", function (d) {
                                 if(d.z==null){
                                     return 'black';
@@ -416,59 +398,20 @@ videoModule.directive('ghVisualization', function () {
 
 videoModule.controller('videoController', ['$scope', 'videoProject','$location','$cookieStore', function ($scope, videoProject,$location, $cookieStore) {
 
-    console.log("select cameras:");
-    console.log( $cookieStore.get('select_cameras'));
-    console.log( $cookieStore.get('target_store'));
-    console.log( $cookieStore.get('target_date'));
-
-    $scope.modDate = 2013+"-"+06 + "-" + 01;
-    $scope.modDate2 = 2013+"-"+06 + "-" + 02;
-
-
-    $('#control_button').click(function (e) {
-        e.stopPropagation();
-        $('#control_panel').toggle("fast");
-    });
-
-    $scope.datepicker = {date: new Date(),date2: new Date()};
-    $scope.timepicker = {time: "00:00 AM",time2: "12:00AM"};
-
-    $scope.$watch('datepicker.date', function(v){ // using the example model from the datepicker docs
-        var d = new Date(v);
-        var curr_date = d.getDate();
-        var curr_month = d.getMonth() + 1; //Months are zero based
-        var curr_year = d.getFullYear();
-        $scope.modDate = curr_year+"-"+curr_month + "-" + curr_date;
-    })
-
-    $scope.$watch('timepicker.time', function(newVal,oldVal){
-        $scope.time_stampt1 = newVal;
-    })
-
-    $scope.$watch('timepicker.time2', function(newVal,oldVal){
-        $scope.time_stampt2 = newVal;
-    })
-
-    $scope.$watch('datepicker.date2', function(v){ // using the example model from the datepicker docs
-        var d = new Date(v);
-        var curr_date = d.getDate();
-        var curr_month = d.getMonth() + 1; //Months are zero based
-        var curr_year = d.getFullYear();
-        $scope.modDate2 = curr_year+"-"+curr_month + "-" + curr_date;
-    })
-
-
     //RANGE QUERY METHOD
+    $scope.modDate="2013-06-03"
+    $scope.modDate2="2013-06-03"
     videoProject.query({created_date: {
             $gte: {
-                $date: $scope.modDate + "T"+"00:00:00.0000Z"
+                $date: $scope.modDate+"T00:00:00.0000Z"
             },
             $lt: {
-                $date: $scope.modDate2 + "T"+"23:00:00.0000Z"
+                $date: $scope.modDate2+"T23:00:00.0000Z"
             }
         }, "host": "gte-6501-01"
         }, {limit: 800},
         function (data) {
+            console.log(data)
             var x_node_hash = new HashTable();
             var y_node_hash = new HashTable();
             var x_node_array = new Array();
@@ -536,14 +479,8 @@ videoModule.controller('videoController', ['$scope', 'videoProject','$location',
     }
 
     $scope.forward = function(){
-
-        var date = new Date();
-        date.setFullYear($scope.modDate2.split("-")[0], +$scope.modDate2.split("-")[1]-1,$scope.modDate2.split("-")[2]);
-        date.setTime(date.getTime()+86400000);
-        var new_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
-        console.log(new_date);
-        $scope.modDate=$scope.modDate2;
-        $scope.modDate2=new_date;
+        $scope.modDate="2013-06-05"
+        $scope.modDate2="2013-06-05"
 
         videoProject.query({created_date: {
                 $gte: {
@@ -585,13 +522,8 @@ videoModule.controller('videoController', ['$scope', 'videoProject','$location',
 
     $scope.backward = function(){
 
-        var date = new Date();
-        date.setFullYear($scope.modDate2.split("-")[0], +$scope.modDate2.split("-")[1]-1,$scope.modDate2.split("-")[2] );
-        date.setTime(date.getTime()-86400000);
-        var new_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
-        console.log(new_date);
-        $scope.modDate2=$scope.modDate;
-        $scope.modDate=new_date;
+        $scope.modDate="2013-06-02"
+        $scope.modDate2="2013-06-02"
         videoProject.query({created_date: {
                 $gte: {
                     $date:$scope.modDate + "T"+"00:00:00.0000Z"
