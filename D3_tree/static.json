@@ -1,0 +1,778 @@
+{"name": "VIDEOMINING", "children": [
+    {
+        "name": "getgo",
+        "children": [
+            {
+                "name": "3514",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac001",
+                                "size": false
+                            },
+                            {
+                                "name": "fac002",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "3280",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac002",
+                                "size": false
+                            },
+                            {
+                                "name": "fac004",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "cf",
+        "children": [
+            {
+                "name": "163",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac005",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "thor",
+        "children": [
+            {
+                "name": "160",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac001",
+                                "size": false
+                            },
+                            {
+                                "name": "fac002",
+                                "size": false
+                            },
+                            {
+                                "name": "fac003",
+                                "size": false
+                            },
+                            {
+                                "name": "fac005",
+                                "size": false
+                            },
+                            {
+                                "name": "fac007",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ck",
+        "children": [
+            {
+                "name": "3378",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac004",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "02",
+                        "children": [
+                            {
+                                "name": "fac010",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "kro",
+        "children": [
+            {
+                "name": "503",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam009",
+                                "size": false
+                            },
+                            {
+                                "name": "cam010",
+                                "size": false
+                            },
+                            {
+                                "name": "cam011",
+                                "size": false
+                            },
+                            {
+                                "name": "cam012",
+                                "size": false
+                            },
+                            {
+                                "name": "cam013",
+                                "size": false
+                            },
+                            {
+                                "name": "cam014",
+                                "size": false
+                            },
+                            {
+                                "name": "cam015",
+                                "size": false
+                            },
+                            {
+                                "name": "cam016",
+                                "size": false
+                            },
+                            {
+                                "name": "cam017",
+                                "size": false
+                            },
+                            {
+                                "name": "cam018",
+                                "size": false
+                            },
+                            {
+                                "name": "cam001",
+                                "size": false
+                            },
+                            {
+                                "name": "cam019",
+                                "size": false
+                            },
+                            {
+                                "name": "cam020",
+                                "size": false
+                            },
+                            {
+                                "name": "cam021",
+                                "size": false
+                            },
+                            {
+                                "name": "cam022",
+                                "size": false
+                            },
+                            {
+                                "name": "cam002",
+                                "size": false
+                            },
+                            {
+                                "name": "cam003",
+                                "size": false
+                            },
+                            {
+                                "name": "cam046",
+                                "size": false
+                            },
+                            {
+                                "name": "cam047",
+                                "size": false
+                            },
+                            {
+                                "name": "cam048",
+                                "size": false
+                            },
+                            {
+                                "name": "cam004",
+                                "size": false
+                            },
+                            {
+                                "name": "cam049",
+                                "size": false
+                            },
+                            {
+                                "name": "cam050",
+                                "size": false
+                            },
+                            {
+                                "name": "cam051",
+                                "size": false
+                            },
+                            {
+                                "name": "cam052",
+                                "size": false
+                            },
+                            {
+                                "name": "cam005",
+                                "size": false
+                            },
+                            {
+                                "name": "fac001",
+                                "size": false
+                            },
+                            {
+                                "name": "fac002",
+                                "size": false
+                            },
+                            {
+                                "name": "cam006",
+                                "size": false
+                            },
+                            {
+                                "name": "cam007",
+                                "size": false
+                            },
+                            {
+                                "name": "cam008",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "02",
+                        "children": [
+                            {
+                                "name": "cam032",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "501",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac001",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "bp",
+        "children": [
+            {
+                "name": "82376",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac002",
+                                "size": false
+                            },
+                            {
+                                "name": "fac004",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "swy",
+        "children": [
+            {
+                "name": "2030",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam011",
+                                "size": false
+                            },
+                            {
+                                "name": "cam019",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "03",
+                        "children": [
+                            {
+                                "name": "cam048",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "1751",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam022",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "02",
+                        "children": [
+                            {
+                                "name": "fac003",
+                                "size": false
+                            },
+                            {
+                                "name": "fac004",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "03",
+                        "children": [
+                            {
+                                "name": "cam062",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "2607",
+                "children": [
+                    {
+                        "name": "03",
+                        "children": [
+                            {
+                                "name": "cam065",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "06",
+                        "children": [
+                            {
+                                "name": "fac013",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam013",
+                                "size": false
+                            },
+                            {
+                                "name": "cam014",
+                                "size": false
+                            },
+                            {
+                                "name": "cam015",
+                                "size": false
+                            },
+                            {
+                                "name": "cam016",
+                                "size": false
+                            },
+                            {
+                                "name": "cam017",
+                                "size": false
+                            },
+                            {
+                                "name": "cam018",
+                                "size": false
+                            },
+                            {
+                                "name": "cam019",
+                                "size": false
+                            },
+                            {
+                                "name": "cam022",
+                                "size": false
+                            },
+                            {
+                                "name": "cam023",
+                                "size": false
+                            },
+                            {
+                                "name": "cam024",
+                                "size": false
+                            },
+                            {
+                                "name": "cam025",
+                                "size": false
+                            },
+                            {
+                                "name": "cam026",
+                                "size": false
+                            },
+                            {
+                                "name": "cam027",
+                                "size": false
+                            },
+                            {
+                                "name": "cam028",
+                                "size": false
+                            },
+                            {
+                                "name": "cam029",
+                                "size": false
+                            },
+                            {
+                                "name": "cam030",
+                                "size": false
+                            },
+                            {
+                                "name": "cam031",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "02",
+                        "children": [
+                            {
+                                "name": "cam032",
+                                "size": false
+                            },
+                            {
+                                "name": "cam033",
+                                "size": false
+                            },
+                            {
+                                "name": "cam034",
+                                "size": false
+                            },
+                            {
+                                "name": "cam035",
+                                "size": false
+                            },
+                            {
+                                "name": "cam036",
+                                "size": false
+                            },
+                            {
+                                "name": "cam037",
+                                "size": false
+                            },
+                            {
+                                "name": "cam038",
+                                "size": false
+                            },
+                            {
+                                "name": "cam039",
+                                "size": false
+                            },
+                            {
+                                "name": "cam040",
+                                "size": false
+                            },
+                            {
+                                "name": "cam041",
+                                "size": false
+                            },
+                            {
+                                "name": "cam042",
+                                "size": false
+                            },
+                            {
+                                "name": "cam044",
+                                "size": false
+                            },
+                            {
+                                "name": "cam048",
+                                "size": false
+                            },
+                            {
+                                "name": "cam049",
+                                "size": false
+                            },
+                            {
+                                "name": "cam050",
+                                "size": false
+                            },
+                            {
+                                "name": "cam051",
+                                "size": false
+                            },
+                            {
+                                "name": "cam057",
+                                "size": false
+                            },
+                            {
+                                "name": "cam062",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "flion",
+        "children": [
+            {
+                "name": "1353",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac003",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "hess",
+        "children": [
+            {
+                "name": "9588",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "fac001",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "giant",
+        "children": [
+            {
+                "name": "97",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam007",
+                                "size": false
+                            },
+                            {
+                                "name": "cam008",
+                                "size": false
+                            },
+                            {
+                                "name": "cam009",
+                                "size": false
+                            },
+                            {
+                                "name": "cam010",
+                                "size": false
+                            },
+                            {
+                                "name": "cam011",
+                                "size": false
+                            },
+                            {
+                                "name": "cam014",
+                                "size": false
+                            },
+                            {
+                                "name": "cam013",
+                                "size": false
+                            },
+                            {
+                                "name": "cam015",
+                                "size": false
+                            },
+                            {
+                                "name": "cam016",
+                                "size": false
+                            },
+                            {
+                                "name": "cam017",
+                                "size": false
+                            },
+                            {
+                                "name": "cam018",
+                                "size": false
+                            },
+                            {
+                                "name": "cam019",
+                                "size": false
+                            },
+                            {
+                                "name": "cam020",
+                                "size": false
+                            },
+                            {
+                                "name": "cam021",
+                                "size": false
+                            },
+                            {
+                                "name": "cam022",
+                                "size": false
+                            },
+                            {
+                                "name": "cam023",
+                                "size": false
+                            },
+                            {
+                                "name": "cam024",
+                                "size": false
+                            },
+                            {
+                                "name": "cam001",
+                                "size": false
+                            },
+                            {
+                                "name": "cam002",
+                                "size": false
+                            },
+                            {
+                                "name": "cam003",
+                                "size": false
+                            },
+                            {
+                                "name": "cam004",
+                                "size": false
+                            },
+                            {
+                                "name": "cam012",
+                                "size": false
+                            },
+                            {
+                                "name": "cam005",
+                                "size": false
+                            },
+                            {
+                                "name": "cam006",
+                                "size": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "05",
+                        "children": [
+                            {
+                                "name": "cam106",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "mav",
+        "children": [
+            {
+                "name": "427",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam009",
+                                "size": false
+                            },
+                            {
+                                "name": "cam017",
+                                "size": false
+                            },
+                            {
+                                "name": "fac002",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "race",
+        "children": [
+            {
+                "name": "618",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "cam015",
+                                "size": false
+                            },
+                            {
+                                "name": "fac003",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "vpu",
+        "children": [
+            {
+                "name": "test",
+                "children": [
+                    {
+                        "name": "01",
+                        "children": [
+                            {
+                                "name": "M212",
+                                "size": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]}
