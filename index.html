@@ -1,179 +1,307 @@
-﻿<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
-	
-	<head>
-        <meta charset='utf-8' />
-        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-        <meta name="description" content="sli.io : " />
-        <script type="javascript" src="/javascripts/bootstrap.js"></script>
-        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+	<meta name="description" content="sli.io : " />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<script src="javascripts/jquery.js"></script>
+	<script src="jquery.slinky.min.js"></script>
+
+   <!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
+	<link rel="stylesheet" href="projects.css">
+	<title>Personal Project Experience and Showcase</title>
+</head>
+<style>
+html, body, div, span,a {
+  /*margin: 0;*/
+  padding: 0;
+  border: 0;
+  /*font: inherit;*/
+  vertical-align: baseline;
+}
+
+nav {
+  height: 100%;
+  /*overflow: auto;*/
+}
+
+section, header {
+  width: 100%;
+  max-width: 1000px;
+  z-index: 2;
+}
+
+section {
+  margin: 0 auto;
+}
+
+h3 {
+   color: #FFF;
+  padding: .3em .3rem;
+  font-size: .9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+section:first-child {
+  /*margin-top: 6.25%;*/
+}
+
+section:last-child {
+  margin-bottom: 6.25%;
+}
+
+section:nth-child(1) header {
+  background: #1985D4;
+}
+
+section:nth-child(2) header {
+  background: #57A922;
+}
+
+section:nth-child(3) header {
+  background: #F7AB00;
+}
+
+section:nth-child(4) header {
+  background: #EA6F00;
+}
+
+section:nth-child(5) header {
+  background: #D5262C;
+}
+
+section:nth-child(6) header {
+  background: #7E2985;
+}
 
 
 
-        <title>sli.io</title>
-		<link rel="stylesheet" media="all" href="stylesheets/ballon.css" />
+article {
+  margin: 0.2rem;
+}
 
-		<script src="javascripts/modernizr.custom.37797.js"></script>
-		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
-		<script src="javascripts/parallax.js"></script>
-        <style>
-            button, .button {
-            padding-top: 0.8125em;
-            padding-bottom: 0.75em;
-            -webkit-appearance: none;
-            }
+button, .button {
+    padding-top: 0.8125em;
+    padding-bottom: 0.75em;
+    -webkit-appearance: none;
+}
 
-            button, .button {
-            border-style: solid;
-            border-width: 1px;
-            cursor: pointer;
-            font-family: inherit;
-            font-weight: bold;
-            color:white;
-            line-height: 1;
-            margin: 0 0 1.25em;
-            position: relative;
-            text-decoration: none;
-            text-align: center;
-            display: inline-block;
-            padding-top: 0.75em;
-            padding-right: 1.5em;
-            padding-bottom: 0.8125em;
-            padding-left: 1.5em;
-            font-size: 1em;
-            background-color: #2ba6cb;
-            border-color: #2284a1;
-            color: white;
-            }
+a {
+    font-family:"Lucida Grande", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color:#C0C0C0;
+    text-decoration:underline;
+}
 
-            button, .button {
-            -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
-            box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
-            -webkit-transition: background-color 300ms ease-out;
-            -moz-transition: background-color 300ms ease-out;
-            transition: background-color 300ms ease-out;
-            }
-        </style>
-	</head>
+button, .button {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    color:white;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-right: 1.5em;
+    padding-bottom: 0.8125em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    background-color: #2ba6cb;
+    border-color: #2284a1;
+    color: white;
+}
 
-	<body>
+p
+{
+font-family:"Times New Roman",Georgia,Serif;
+}
 
-		<div id="wrapper">
+button, .button {
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+}
 
-            <div id="header_wrap" class="outer">
-                <header class="inner">
-                    <a id="forkme_banner" href="https://github.com/ShuoLi">View on GitHub</a>
+.bs-tags {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+}
+</style>
+<body style="">
 
-                    <h1 id="project_title">sli.io</h1>
-                    <h2 id="project_tagline"></h2>
-
-                </header>
-            </div>
-
-			
-			<nav id="primary">
-				<ul>
-					<li>
-						<h1>First manned flights</h1>
-						<a class="manned-flight" href="#manned-flight">View</a>
-					</li>
-					<li>
-						<h1>The frameless parachute</h1>
-						<a class="frameless-parachute" href="#frameless-parachute">View</a>
-					</li>
-					<li>
-						<h1>Over the English Channel</h1>
-						<a class="english-channel" href="#english-channel">View</a>
-					</li>
-					<li>
-						<h1>About</h1>
-						<a class="about" href="#about">View</a>
-					</li>
-				</ul>
-			</nav>
-			
-			<div id="content">
-				<article id="manned-flight">
-					<header>
-						<h1>JavaScript Visualization</h1>
-					</header>
-
-                    <a href="/GitHubDataVis/rect.html" class="button">GitHubDataTest with Auto Complete</a>
-                    <a href="/GitHubDataVis/circle.html" class="button">GitHubDataTest with Grouped</a>
-                    <a href="/testOnEva/eva.html" class="button">D3 Timer animation</a>
-                    <a href="/zalgorithm/zalgorithm.html" class="button">Z Algorithm</a>
-                    <a href="/AngularDirTest/AngularDirTest.html" class="button">Angular Separated Directive</a>
-                    <a href="/PieChart/index.html" class="button">Pie Chart</a>
-                    <a href="/matrix/matrix.html" class="button">Matrix</a>
-
-                    <nav class="next-prev">
-						<hr />
-						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
-					</nav>
+	<main>
+		<nav>
+<!-- 			<section style="padding-top: 0px;">
+			</section> -->
+			<section style="padding-top: 0px;">
+				<header style="position: absolute; top: 35px;"><h3>Ruby On Rails</h3></header>
+				<article>
+          <div>
+              All projects are host on heroku with free sevices, which will take few minutes to load.
+          </div>
+					<div>
+					    <a href="http://www.hotpotpa.com"><h2>Hotpotpa.com</h2></a>
+						<div style="margin-top:0px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">S3</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Foundation</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">ActiveAdmin</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">CoffeeScript</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Devise</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ActiveMerchant</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Mail</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Parallax.js</span>
+                        </div>
+            <p>Website for State College local restaurant. It combines with Paypal payment gateway and a fresh designed menu system. I build this system from user requirement analysis, use case design. </p>
+					</div>
+					<div>
+                        <a href="http://rainbowa.heroku.com"><h2>Rainbowa</h2></a>
+                        <div style="margin-top:0px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Omniauth</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Youtube</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Video.js</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ImageMagick</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Carrierwave</span>
+                        </div>
+						<p>A Rails-based music video sharing website. Allows users compose and modify music timelines. My focus is the frontend, using JavaScript built interactive effect during playing the music. Also, my work included the solutions between user behaviors and data communication. </p>
+					</div>
+					<div>
+                        <a href="http://yisifahan.heroku.com"><h2>Yisifahan</h2></a>
+                        <div style="margin-top:0px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Madmimi</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Ajax</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Blog</span>
+                        </div>
+						<p>A Rails-based functioning website displays luxury carpets for sale. It’s a practical project and I’m responsible for the whole project. My work contains, requirement analysis, data class design, frontend and backend coding, user interface design and implement, deployment project on could. In this project, Gems like Bootstrap, SASS, ActiveAdmin had been used to improve the user experience. </p>
+					</div>
+					<div>
+						<a href="http://www.uab-usa.com"><h2>UAB-USA</h2></a>
+                        <div style="margin-top:0px" class="bs-tags">
+                            <span class="btn-small btn-warning" style="font-size:0.9em">ExecJS</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Devise</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">Bootstrap</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Heroku</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">ActiveAdmin</span>
+                            <span class="btn-small btn-success" style="font-size:0.9em">S3</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">Kaminari</span>
+                            <span class="btn-small btn-info" style="font-size:0.9em">Prawn</span>
+                            <span class="btn-small btn-danger" style="font-size:0.9em">ImageMagick</span>
+                            <span class="btn-small btn-warning" style="font-size:0.9em">Sidekiq</span>
+                        </div>
+						<p>This project is an order management system for UAB-USA. It combines complicate business logic and requirement for efficiency filter options. Support CORS multiple file upload and auto-generated receipt page. </p>
+					</div>
+					<!--<div>-->
+						<!--<h2>Doubi.org</h2>-->
+						<!--<p></p>-->
+					<!--</div>-->
+					<!--<div>-->
+						<!--<h2>viscb</h2>-->
+						<!--<p></p>-->
+					<!--</div>-->
 				</article>
-				
-				<article id="frameless-parachute">
-					<header>
-						<h1>Algorithm Implementations</h1>
-					</header>
-					<p></p>
-					<nav class="next-prev">
-						<a class="prev manned-flight" href="#manned-flight">Prev</a>
-						<hr />
-						<a class="next english-channel" href="#english-channel">Next</a>
-					</nav>
+			</section>
+			<section style="padding-top: 35px;">
+				<header style="position: absolute; top: 35px;"><h3>Android & J2EE</h3></header>
+				<article>
+				<div>
+					<h2>JYogurt</h2>
+					<p>A restful-based Android application that enables the students within the Johns Hopkins to post buying & selling information as well as housing information via their Android devices. My work is controlling the process of whole project, designing J2EE frameworks, writing the communication API between Android and Server side and refactoring for Android side.</p>
+				</div>
+                <div>
+                    <h2>Simulated Spring</h2>
+                    <p>Design and implement during reading Thinking in Java. It includes the basic function of reflection, aspect oriented programming. </p>
+                </div>
+				<div>
+					<a href="https://github.com/ShuoLi/android-canvas-game"><h2>CanvasGame</h2></a>
+					<p>After I got my original HTC G1, I can't stop myself to do something about Android. This is my first program on Android, it works on SDK 1.5.</p>
+				</div>
 				</article>
-				
-				<article id="english-channel">
-					<header>
-						<h1>Writting</h1>
-					</header>
-					<p></p>
-					<nav class="next-prev">
-						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
-						<hr />
-						<a class="next about" href="#about">Next</a>
-					</nav>
+			</section>
+			<section style="padding-top: 35px;">
+				<header style="position: absolute; top: 35px;"><h3>Academic Projects</h3></header>
+                <article>
+					<div>
+						<h2>Robotics</h2>
+						<p>Dynamic Dubins-curve based RRT Motion Planning for Differential Constrain Robot.<br>
+                         This project develops a sample-based motion-planning algorithm for robot with differential constraints. It’s development in C++ with OOPSMP. It’s the course project for Algorithm for Sensor-Based Robotic. My work is combining the Dubins curve into the original control system implementation.</p>
+					</div>
+					<div>
+						<h2>Machine Learning</h2>
+						<p>Patent Analysis Based Topic Model and Non- Exhaustive Clustering.<br>
+                        Patent mining software developed for a Baltimore local company. It works by fetching data from USPTO. Then use Non-exhaustive overlapping clustering combined with the keywords found by LDA, to find the commercial value of patents. I participated the first step of the software. My work includes implementation of clustering algorithm, data visualization with JavaScript. </p>
+					</div>
 				</article>
-				
-				<article id="about">
+			</section>
+      <section style="padding-top: 35px;">
+        <header style="position: absolute; top: 35px;"><h3>JavaScript Showcase</h3></header>
+        <article>
+          <div>
+            <a href="D3_matrix/matrix.html">
+              <img src="images/matrix_thumb.png" width="200px" height="200px"><br>
+              Angular and MongoLab based Matrix Events
+            </a>
+            <hr>
+            <a href="D3_tree/tree.html">
+              <img src="images/tree_thumb.png" width="200px" height="200px"><br>
+              Expandable Tree with Filter Based on D3
+            </a>
+            <hr>
+            <a href="GitHubDataVis/rect.html" >
+              <img src="images/github_thumb.png" width="200px" height="200px"><br>
+              GitHubDataTest with Auto Complete
+            </a>
+            <hr>
+            <a href="starry_night/index.html" >
+              <img src="images/starry_night.png" width="200px" height="200px"><br>
+              Parallax effect from Van Gogh to Batman
+            </a>
+            <hr>
+            Many effects haven't been simplified to showcase version yet, still working on it.
+<!--             <a href="testOnEva/eva.html">
+              <img src="images/timer_thumb.png" width="200px" height="200px"><br>
+              D3 Timer animation
+            </a>
+            <hr>
+            <a href="AngularDirTest/AngularDirTest.html">
+              <img src="images/angulardir_thumb.png" width="200px" height="200px"><br>
+              Angular Separated Directive
+            </a> -->
+          </div>
 
-				</article>
-			</div>
-			
-			<!-- Parallax foreground -->
-			<div id="parallax-bg3">
-				<img id="bg3-1" src="./images/computer1.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
-				<img id="bg3-2" src="./images/computer2.png" width="603" height="583" alt="Frameless parachute"/>
-				<img id="bg3-3" src="./images/computer3.png" width="603" height="583" alt="Blanchard's air balloon"/>
-			</div>
-			
-			<!-- Parallax  midground clouds -->
-			<div id="parallax-bg2">
-				<img id="bg2-1" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-2" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-3" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-4" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-5" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
-			</div>
-			
-			<!-- Parallax  background clouds -->
-			<div id="parallax-bg1">
-				<img id="bg1-1" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-2" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-3" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-4" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
-			</div>
-		
-		</div>
+        </article>
+      </section>
+		</nav>
+	</main>
+
 	<script>
-        $(".cloudbg").css("left",function(){
-
-        });
+	$('main').slinky();
 	</script>
-	</body>
-  
+</body>
 </html>

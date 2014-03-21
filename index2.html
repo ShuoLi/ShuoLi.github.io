@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+
+<html>
+	
+	<head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="sli.io : " />
+        <script type="javascript" src="/javascripts/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+
+
+        <title>sli.io</title>
+		<link rel="stylesheet" media="all" href="stylesheets/ballon.css" />
+
+		<script src="javascripts/modernizr.custom.37797.js"></script>
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script src="javascripts/parallax.js"></script>
+        <style>
+            button, .button {
+            padding-top: 0.8125em;
+            padding-bottom: 0.75em;
+            -webkit-appearance: none;
+            }
+
+            button, .button {
+            border-style: solid;
+            border-width: 1px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: bold;
+            color:white;
+            line-height: 1;
+            margin: 0 0 1.25em;
+            position: relative;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            padding-top: 0.75em;
+            padding-right: 1.5em;
+            padding-bottom: 0.8125em;
+            padding-left: 1.5em;
+            font-size: 1em;
+            background-color: #2ba6cb;
+            border-color: #2284a1;
+            color: white;
+            }
+
+            button, .button {
+            -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+            box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+            -webkit-transition: background-color 300ms ease-out;
+            -moz-transition: background-color 300ms ease-out;
+            transition: background-color 300ms ease-out;
+            }
+        </style>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+            <div id="header_wrap" class="outer">
+                <header class="inner">
+                    <a id="forkme_banner" href="https://github.com/ShuoLi">View on GitHub</a>
+
+                    <h1 id="project_title">sli.io</h1>
+                    <h2 id="project_tagline"></h2>
+
+                </header>
+            </div>
+
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>First manned flights</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>The frameless parachute</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Over the English Channel</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+						<h1>JavaScript Visualization</h1>
+					</header>
+
+                    <a href="/GitHubDataVis/rect.html" class="button">GitHubDataTest with Auto Complete</a>
+                    <a href="/GitHubDataVis/circle.html" class="button">GitHubDataTest with Grouped</a>
+                    <a href="/testOnEva/eva.html" class="button">D3 Timer animation</a>
+                    <a href="/zalgorithm/zalgorithm.html" class="button">Z Algorithm</a>
+                    <a href="/AngularDirTest/AngularDirTest.html" class="button">Angular Separated Directive</a>
+                    <a href="/PieChart/index.html" class="button">Pie Chart</a>
+                    <a href="/matrix/matrix.html" class="button">Matrix</a>
+
+                    <nav class="next-prev">
+						<hr />
+						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+					</nav>
+				</article>
+				
+				<article id="frameless-parachute">
+					<header>
+						<h1>Algorithm Implementations</h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<a class="prev manned-flight" href="#manned-flight">Prev</a>
+						<hr />
+						<a class="next english-channel" href="#english-channel">Next</a>
+					</nav>
+				</article>
+				
+				<article id="english-channel">
+					<header>
+						<h1>Writting</h1>
+					</header>
+					<p></p>
+					<nav class="next-prev">
+						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+						<hr />
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="./images/computer1.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
+				<img id="bg3-2" src="./images/computer2.png" width="603" height="583" alt="Frameless parachute"/>
+				<img id="bg3-3" src="./images/computer3.png" width="603" height="583" alt="Blanchard's air balloon"/>
+			</div>
+			
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2">
+				<img id="bg2-1" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-2" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-3" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-4" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-5" class="cloudbg" src="./images/cloud-lg1.png" alt="cloud"/>
+			</div>
+			
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1">
+				<img id="bg1-1" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-2" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-3" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-4" class="cloudbg" src="./images/cloud-lg2.png" alt="cloud"/>
+			</div>
+		
+		</div>
+	<script>
+        $(".cloudbg").css("left",function(){
+
+        });
+	</script>
+	</body>
+  
+</html>
